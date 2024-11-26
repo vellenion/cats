@@ -1,0 +1,36 @@
+.mini-photo {
+    width: 45%;
+    border-radius: 10%;
+    vertical-align: top;
+}
+h1 {
+    margin: auto;
+    height: 30%;
+    width: 50%;
+    background-color: #ADADAD;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+footer {
+    background-color: #83677B;
+    text-align: center;
+    margin-top: 100%;
+    color: white;
+}
+body { 
+    font-family:"Montserrat-Italic";
+}
+@font-face {
+    font-family: "Montserrat-italic";
+    src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+footer a {
+    color: #2e1114;
+    text-align: center;
+}
+.image-text-container {
+    position: relative;
+
+}
