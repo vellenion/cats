@@ -1,5 +1,12 @@
+body {
+    font-family:"Montserrat-Italic";
+    background-image: url(backgrounds/5399717.jpg);
+    color: white;
+    text-align: center;
+}
 .mini-photo {
-    width: 45%;
+    width: 400px;
+    height: 300px;
     border-radius: 10%;
     vertical-align: top;
 }
@@ -10,7 +17,7 @@ h1 {
     background-color: #ADADAD;
     text-align: center;
 }
-ul {
+ol {
     list-style-type: none;
 }
 footer {
@@ -19,9 +26,7 @@ footer {
     margin-top: 100%;
     color: white;
 }
-body { 
-    font-family:"Montserrat-Italic";
-}
+
 @font-face {
     font-family: "Montserrat-italic";
     src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
@@ -30,7 +35,41 @@ footer a {
     color: #2e1114;
     text-align: center;
 }
-.image-text-container {
-    position: relative;
 
+button {
+    width: 150px;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: bisque;
+    font-family: "Cyr";
+    border-radius: 12px;
+    font-size: larger;
 }
+button:hover {
+    width: 165px;
+    height: 77px;
+}
+
+a {
+    color:  #83677B;
+    text-decoration: none;
+}
+
+header button {
+    margin-right: 100%;
+}
+@font-face {
+    font-family: "Cyr";
+    src: url(fonts/Daneehand\ Regular\ Cyr.ttf);
+}
+
+/*body {
+    background: linear-gradient(pink 50%, blue 50%);
+}
+    ЭТО ЕСЛИ БЫ ПРЯМ ПОДЕЛИТЬ НАДО БЫЛО*
+
+body {
+    background: linear-gradient(pink, blue);
+}
+    ЭТО ЕСЛИ БЫ БЫЛ НУЖЕН ИМЕННО ГРАДИЕНТ
