@@ -3,6 +3,7 @@ body {
     background-image: url(backgrounds/5399717.jpg);
     color: white;
     text-align: center;
+    background-repeat: no-repeat;
 }
 .mini-photo {
     width: 400px;
@@ -14,16 +15,22 @@ h1 {
     margin: auto;
     height: 30%;
     width: 50%;
-    background-color: #ADADAD;
     text-align: center;
 }
 ol {
     list-style-type: none;
 }
-footer {
+.footer-index {
     background-color: #83677B;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 22%;
+    color: white;
+}
+
+.footer-page {
+    background-color: #83677B;
+    text-align: center;
+    margin-top: 5%;
     color: white;
 }
 
@@ -36,7 +43,7 @@ footer a {
     text-align: center;
 }
 
-button {
+.bisquit-button {
     width: 150px;
     height: 70px;
     margin-top: 15px;
