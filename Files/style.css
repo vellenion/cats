@@ -4,6 +4,7 @@ body {
     color: white;
     text-align: center;
 }
+
 .mini-photo {
     width: 400px;
     height: 300px;
@@ -14,17 +15,25 @@ h1 {
     margin: auto;
     height: 30%;
     width: 50%;
-    background-color: #ADADAD;
     text-align: center;
 }
 ol {
     list-style-type: none;
 }
-footer {
+.footer_index {
     background-color: #83677B;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 30%;
     color: white;
+    width: 100%;
+}
+
+.footer_page {
+    background-color: #83677B;
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    width: 100%;
 }
 
 @font-face {
@@ -36,7 +45,7 @@ footer a {
     text-align: center;
 }
 
-button {
+.page__button {
     width: 150px;
     height: 70px;
     margin-top: 15px;
@@ -45,15 +54,14 @@ button {
     font-family: "Cyr";
     border-radius: 12px;
     font-size: larger;
+    display: flex;
+    color: #83677B;
+    align-items: center;
+    justify-content: center;
 }
 button:hover {
     width: 165px;
     height: 77px;
-}
-
-a {
-    color:  #83677B;
-    text-decoration: none;
 }
 
 header button {
@@ -64,12 +72,19 @@ header button {
     src: url(fonts/Daneehand\ Regular\ Cyr.ttf);
 }
 
-/*body {
-    background: linear-gradient(pink 50%, blue 50%);
+.index-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-    ЭТО ЕСЛИ БЫ ПРЯМ ПОДЕЛИТЬ НАДО БЫЛО*
+a {
+    text-decoration: none;
+}
 
-body {
-    background: linear-gradient(pink, blue);
+.page__footer__navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-    ЭТО ЕСЛИ БЫ БЫЛ НУЖЕН ИМЕННО ГРАДИЕНТ
