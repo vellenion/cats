@@ -11,7 +11,7 @@ body {
     border-radius: 10%;
     vertical-align: top;
 }
-h1 {
+.headerer-index {
     margin: auto;
     height: 30%;
     width: 50%;
@@ -52,6 +52,7 @@ footer a {
     font-family: "Cyr";
     border-radius: 12px;
     font-size: larger;
+    color: #83677B;
 }
 button:hover {
     width: 165px;
@@ -59,7 +60,6 @@ button:hover {
 }
 
 a {
-    color:  #83677B;
     text-decoration: none;
 }
 
@@ -71,12 +71,14 @@ header button {
     src: url(fonts/Daneehand\ Regular\ Cyr.ttf);
 }
 
-/*body {
-    background: linear-gradient(pink 50%, blue 50%);
+.index-navigation {
+    display: flex;
+    flex-direction: column;
 }
-    ЭТО ЕСЛИ БЫ ПРЯМ ПОДЕЛИТЬ НАДО БЫЛО*
 
-body {
-    background: linear-gradient(pink, blue);
+.headerer-page {
+    margin: auto;
+    height: 30%;
+    width: 50%;
+    text-align: center;
 }
-    ЭТО ЕСЛИ БЫ БЫЛ НУЖЕН ИМЕННО ГРАДИЕНТ
