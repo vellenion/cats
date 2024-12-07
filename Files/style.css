@@ -83,7 +83,7 @@ a {
 
 .header-page-navigation-back {
     
-    background-color: bisque;
+    background-color:#83677B;
     height: 120px;
     display: flex;
     justify-content: space-between;
@@ -107,6 +107,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: #2e1114;
+    border-left: #2e1114;
 }
 
 .logo_cat {
@@ -128,3 +130,22 @@ a {
 .index-logo {
     
 }
+
+.nav-separator {
+    background-color:#ffffffc2;
+    width: 3px;
+    height: 120px;
+}
+
+.index-gif {
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+}
+
+.index-gif-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
