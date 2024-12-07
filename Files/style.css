@@ -24,7 +24,6 @@ ol {
 .footer-index {
     background-color: #83677B;
     text-align: center;
-    margin-top: 28%;
     color: white;
 }
 
@@ -105,6 +104,9 @@ a {
     font-family: "cyr";
     font-size: 30px;
     border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo_cat {
@@ -121,4 +123,8 @@ a {
     justify-content: center;
     font-size: 30px;
     background-color:#5e4356;
+}
+
+.index-logo {
+    
 }
