@@ -3,6 +3,7 @@ body {
     background-image: url(backgrounds/5399717.jpg);
     color: white;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .mini-photo {
@@ -11,7 +12,7 @@ body {
     border-radius: 10%;
     vertical-align: top;
 }
-h1 {
+.headerer-index {
     margin: auto;
     height: 30%;
     width: 50%;
@@ -20,12 +21,11 @@ h1 {
 ol {
     list-style-type: none;
 }
-.footer_index {
+.footer-index {
     background-color: #83677B;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 28%;
     color: white;
-    width: 100%;
 }
 
 .footer_page {
@@ -33,7 +33,6 @@ ol {
     text-align: center;
     margin-top: 10%;
     color: white;
-    width: 100%;
 }
 
 @font-face {
@@ -45,7 +44,7 @@ footer a {
     text-align: center;
 }
 
-.page__button {
+.bisquit-button {
     width: 150px;
     height: 70px;
     margin-top: 15px;
@@ -54,19 +53,18 @@ footer a {
     font-family: "Cyr";
     border-radius: 12px;
     font-size: larger;
-    display: flex;
     color: #83677B;
-    align-items: center;
-    justify-content: center;
 }
-button:hover {
+
+.bisquit-button:hover {
     width: 165px;
     height: 77px;
 }
 
-header button {
-    margin-right: 100%;
+a {
+    text-decoration: none;
 }
+
 @font-face {
     font-family: "Cyr";
     src: url(fonts/Daneehand\ Regular\ Cyr.ttf);
@@ -75,16 +73,52 @@ header button {
 .index-navigation {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-a {
-    text-decoration: none;
 }
 
-.page__footer__navigation {
+.headerer-page {
+    margin: auto;
+    height: 30%;
+    width: 50%;
+    text-align: center;
+}
+
+.header-page-navigation-back {
+    
+    background-color: bisque;
+    height: 120px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    margin: -10px;
+}
+.header-page-navigation {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.purple-button {
+    background-color: #83677B;
+    color:white;
+    width: 451px;
+    height: 120px;
+    font-family: "cyr";
+    font-size: 30px;
+    border: 0;
+}
+
+.logo_cat {
+    height: 120px;
+    width: auto;
+}
+
+.this-page {
+    font-family: "cyr";
+    width: 451px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color:#5e4356;
 }
