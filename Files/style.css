@@ -113,7 +113,7 @@ a {
 }
 
 .logo_cat {
-    height: 120px;
+    height: 124px;
     width: auto;
 }
 
@@ -128,6 +128,7 @@ a {
     border-color: #ffffffc2;
     border-left: solid;
     border-right: solid;
+    background-color: #b492ab;
 }
 
 .nav-separator {
